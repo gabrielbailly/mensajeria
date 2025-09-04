@@ -1,7 +1,6 @@
-
 import React from 'react';
-import type { Message } from '../types';
-import { ClockIcon, UsersIcon } from './icons';
+import type { Message } from '../types.ts';
+import { ClockIcon, UsersIcon } from './icons.tsx';
 
 interface MessageCardProps {
   message: Message;

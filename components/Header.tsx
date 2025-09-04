@@ -1,5 +1,5 @@
 import React from 'react';
-import { BellIcon } from './icons';
+import { BellIcon } from './icons.tsx';
 
 const Header: React.FC = () => {
   return (

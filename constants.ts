@@ -1,5 +1,4 @@
-
-import type { FamilyGroup } from './types';
+import type { FamilyGroup } from './types.ts';
 
 export const FAMILY_GROUPS: FamilyGroup[] = [
   { id: 'g1', name: 'Padres de 1º A' },

@@ -1,11 +1,10 @@
-
 import React, { useState, useCallback } from 'react';
-import type { Message, FamilyGroup } from './types';
-import { FAMILY_GROUPS } from './constants';
-import Header from './components/Header';
-import Toast from './components/Toast';
-import MessageCard from './components/MessageCard';
-import { PaperAirplaneIcon } from './components/icons';
+import type { Message, FamilyGroup } from './types.ts';
+import { FAMILY_GROUPS } from './constants.ts';
+import Header from './components/Header.tsx';
+import Toast from './components/Toast.tsx';
+import MessageCard from './components/MessageCard.tsx';
+import { PaperAirplaneIcon } from './components/icons.tsx';
 
 const App: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([]);
