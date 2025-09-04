@@ -1,0 +1,5 @@
+{
+  "name": "Family Communication App",
+  "description": "A simple application, inspired by AppSheet, for sending messages to family groups. It simulates sending notifications and maintains a history of all communications.",
+  "requestFramePermissions": []
+}
